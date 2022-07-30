@@ -18,7 +18,7 @@ def encripta(frase, rot=13):
 
 
 def decripta(frase, rot=13):
-    """Decripta o texto."""
+    """Decripta o texto"""
     decriptado = ''
     for char in frase:
         char = char.lower()
