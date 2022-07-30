@@ -2,7 +2,7 @@ name: Continous Integration
 on: [push]
 jobs:
     lint_and_test:
-        runs-on: debian-stable
+        runs-on: ubuntu-latest
 	steps:
 
 	    - name: Set up python
